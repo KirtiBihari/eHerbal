@@ -1,0 +1,21 @@
+.cart-btn {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .cart-btn:hover .badge {
+    background: red;
+  }
+  
+  .cart-btn .badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #fff;
+    color: #343a40;
+  }
